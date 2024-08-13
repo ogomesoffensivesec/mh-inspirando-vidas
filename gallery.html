@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>MH Inspirando Vidas</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Favicon Icon -->
+    <link rel="icon" type="image/png" href="assets/images/favicon.png" />
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="venobox/venobox.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/plugin_theme_css.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="gallery.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css" />
+    <style>
+        /* Estilos para a galeria e paginação */
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 16px;
+        }
+        .gallery-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+        .gallery-item img:hover {
+            transform: scale(1.05);
+        }
+        .pagination {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        .pagination a {
+            color: #18181b;
+            margin: 0 5px;
+            padding: 8px 16px;
+            border: 1px solid #14B0EE;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+        .pagination a:hover {
+            background-color: #14B0EE;
+            color: white;
+        }
+        .active {
+            background-color: #14B0EE;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <!-- Barra de Navegação -->
+    <div class="hmadi-main-menu one_page hidden-xs hidden-sm">
+        <div class="hmadi_nav_area scroll_fixed">
+            <div class="container">
+                <div class="row logo-left">
+                    <!-- LOGO -->
+                    <div class="col-lg-3 col-md-3 col-sm-12">
+                        <div class="logo">
+                            <a class="main_sticky_main_l" href="index.html" title="MH Inspirando Vidas">
+                                <img src="assets/images/header-logo.png" alt="MH Inspirando Vidas" />
+                            </a>
+                            <a class="main_sticky_l" href="index.html" title="MH Inspirando Vidas">
+                                <img src="assets/images/headerlogo3.png" alt="MH Inspirando Vidas" />
+                            </a>
+                        </div>
+                    </div>
+                    <!-- END LOGO -->
+                    <!-- MAIN MENU -->
+                    <div class="col-lg-9 col-md-9 col-sm-12">
+                        <nav class="hmadi_menu main-search-menu">
+                            <ul class="sub-menu">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="index.html#about">Sobre Nós</a></li>
+                                <li><a href="index.html#services">Serviços</a></li>
+                                <li><a href="index.html#depoiments">Depoimentos</a></li>
+                                <li><a href="index.html#contact">Contato</a></li>
+                            </ul>
+                            <div class="donate-btn-header">
+                                <a class="dtbtn" href="#">Agende uma Consulta</a>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Conteúdo Principal da Galeria -->
+    <main>
+        <section class="py-12">
+            <div class="container mx-auto">
+                <h2 class="text-3xl font-bold mb-8 text-center">Galeria Completa</h2>
+                <div id="gallery" class="gallery-grid">
+                    <!-- Imagens da galeria serão injetadas aqui pelo JavaScript -->
+                </div>
+
+                <!-- Paginação -->
+                <div id="pagination" class="pagination">
+                    <!-- Links de paginação serão injetados aqui pelo JavaScript -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <div class="footer-middle">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="footer-logo">
+                        <img src="assets/images/headerlogo3.png" alt="MH Inspirando Vidas Logo">
+                        <p>Na MH INSPIRANDO VIDAS, oferecemos suporte abrangente em várias áreas de reabilitação para promover o bem-estar dos nossos pacientes.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="footer-widget address">
+                        <h3 class="widget-title">Contato</h3>
+                        <div class="footer-address">
+                            <div class="footer_s_inner">
+                                <div class="footer-sociala-icon">
+                                    <i class="icofont-location-pin"></i>
+                                </div>
+                                <div class="footer-sociala-info">
+                                    <p>Rua Ênio de Abreu Camargo - Centro<br>Atibaia, CEP 12940-070</p>
+                                </div>
+                            </div>
+                            <div class="footer_s_inner">
+                                <div class="footer-sociala-icon">
+                                    <i class="icofont-phone"></i>
+                                </div>
+                                <div class="footer-sociala-info">
+                                    <p>Telefone: (11) 96453-9756</p>
+                                </div>
+                            </div>
+                            <div class="footer_s_inner">
+                                <div class="footer-sociala-icon">
+                                    <i class="icofont-globe"></i>
+                                </div>
+                                <div class="footer-sociala-info">
+                                    <p>Email: contato@mhvidas.com.br<br>Web: www.mhvidas.com.br</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="widget widget_nav_menu">
+                        <h3 class="widget-title">Links Rápidos</h3>
+                        <div class="menu-help-link-container">
+                            <ul class="menu">
+                                <li><a href="#">Início</a></li>
+                                <li><a href="#">Sobre Nós</a></li>
+                                <li><a href="#">Serviços</a></li>
+                                <li><a href="#">Contato</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript para Paginação -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const itemsPerPage = 10;
+            const gallery = document.getElementById('gallery');
+            const pagination = document.getElementById('pagination');
+            const images = [
+                './assets/images/gallery/1.jpeg', './assets/images/gallery/2.jpeg', './assets/images/gallery/3.jpeg',
+                './assets/images/gallery/4.jpeg', './assets/images/gallery/5.jpeg', './assets/images/gallery/6.jpeg',
+                './assets/images/gallery/7.jpeg', './assets/images/gallery/8.jpeg', './assets/images/gallery/9.jpeg',
+                './assets/images/gallery/10.jpeg', './assets/images/gallery/11.jpeg', './assets/images/gallery/12.jpeg',
+                './assets/images/gallery/13.jpeg', './assets/images/gallery/14.jpeg', './assets/images/gallery/15.jpeg',
+                './assets/images/gallery/16.jpeg', './assets/images/gallery/17.jpeg', './assets/images/gallery/18.jpeg',
+                './assets/images/gallery/19.jpeg', './assets/images/gallery/20.jpeg', './assets/images/gallery/21.jpeg',
+                './assets/images/gallery/22.jpeg', './assets/images/gallery/23.jpeg', './assets/images/gallery/24.jpeg',
+                './assets/images/gallery/25.jpeg', './assets/images/gallery/26.jpeg', './assets/images/gallery/27.jpeg',
+                './assets/images/gallery/28.jpeg', './assets/images/gallery/29.jpeg', './assets/images/gallery/30.jpeg',
+                './assets/images/gallery/31.jpeg', './assets/images/gallery/32.jpeg', './assets/images/gallery/33.jpeg',
+                './assets/images/gallery/34.jpeg', './assets/images/gallery/35.jpeg', './assets/images/gallery/36.jpeg',
+                './assets/images/gallery/37.jpeg', './assets/images/gallery/38.jpeg', './assets/images/gallery/39.jpeg',
+                './assets/images/gallery/40.jpeg', './assets/images/gallery/41.jpeg'
+            ];
+            
+            function displayPage(pageNumber) {
+                gallery.innerHTML = '';
+                const start = (pageNumber - 1) * itemsPerPage;
+                const end = Math.min(start + itemsPerPage, images.length);
+                for (let i = start; i < end; i++) {
+                    const item = document.createElement('div');
+                    item.className = 'gallery-item';
+                    item.innerHTML = `<img src="${images[i]}" alt="Imagem ${i + 1}">`;
+                    gallery.appendChild(item);
+                }
+            }
+
+            function setupPagination() {
+                const totalPages = Math.ceil(images.length / itemsPerPage);
+                pagination.innerHTML = '';
+                for (let i = 1; i <= totalPages; i++) {
+                    const pageLink = document.createElement('a');
+                    pageLink.href = '#';
+                    pageLink.textContent = i;
+                    pageLink.className = i === 1 ? 'active' : '';
+                    pageLink.addEventListener('click', function(event) {
+                        event.preventDefault();
+                        document.querySelector('.pagination .active').classList.remove('active');
+                        pageLink.classList.add('active');
+                        displayPage(i);
+                    });
+                    pagination.appendChild(pageLink);
+                }
+            }
+
+            setupPagination();
+            displayPage(1);
+        });
+    </script>
+</body>
+</html>

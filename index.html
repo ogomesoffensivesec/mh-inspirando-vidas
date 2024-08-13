@@ -414,11 +414,66 @@
 	</div>
 
 
-	<!-- hmadi_service_area -->
-	<!-- hmadi_service_area -->
-	<!-- hmadi_service_area -->
-	<!-- hmadi_service_area -->
-	<!-- hmadi_service_area -->
+<!-- Galeria Section -->
+<!-- Galeria Section -->
+<section id="galeria">
+  <div class="container">
+    <h2>Galeria</h2>
+    <div class="grid">
+      <div><img src="./assets/images/gallery/1.jpeg" alt="Imagem 1" onclick="openModal(0)"></div>
+      <div><img src="./assets/images/gallery/2.jpeg" alt="Imagem 2" onclick="openModal(1)"></div>
+      <div><img src="./assets/images/gallery/3.jpeg" alt="Imagem 3" onclick="openModal(2)"></div>
+      <div><img src="./assets/images/gallery/4.jpeg" alt="Imagem 4" onclick="openModal(3)"></div>
+      <div><img src="./assets/images/gallery/5.jpeg" alt="Imagem 5" onclick="openModal(4)"></div>
+      <div><img src="./assets/images/gallery/6.jpeg" alt="Imagem 6" onclick="openModal(5)"></div>
+      <div><img src="./assets/images/gallery/7.jpeg" alt="Imagem 7" onclick="openModal(6)"></div>
+      <div><img src="./assets/images/gallery/8.jpeg" alt="Imagem 8" onclick="openModal(7)"></div>
+      <div><img src="./assets/images/gallery/9.jpeg" alt="Imagem 9" onclick="openModal(8)"></div>
+    </div>
+    <div class="mt-6">
+      <a href="gallery.html">Ver mais</a>
+    </div>
+  </div>
+</section>
+
+<!-- Modal/Slider Section -->
+<div id="myModal" class="modal">
+  <span class="close" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+    <div class="mySlides">
+      <img src="./assets/images/gallery/1.jpeg" alt="Imagem 1">
+    </div>
+    <div class="mySlides">
+      <img src="./assets/images/gallery/2.jpeg" alt="Imagem 2">
+    </div>
+    <div class="mySlides">
+      <img src="./assets/images/gallery/3.jpeg" alt="Imagem 3">
+    </div>
+    <div class="mySlides">
+      <img src="./assets/images/gallery/4.jpeg" alt="Imagem 4">
+    </div>
+    <div class="mySlides">
+      <img src="./assets/images/gallery/5.jpeg" alt="Imagem 5">
+    </div>
+    <div class="mySlides">
+      <img src="./assets/images/gallery/6.jpeg" alt="Imagem 6">
+    </div>
+    <div class="mySlides">
+      <img src="./assets/images/gallery/7.jpeg" alt="Imagem 7">
+    </div>
+    <div class="mySlides">
+      <img src="./assets/images/gallery/8.jpeg" alt="Imagem 8">
+    </div>
+    <div class="mySlides">
+      <img src="./assets/images/gallery/9.jpeg" alt="Imagem 9">
+    </div>
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+</div>
+
+
+
 	<div class="hmadi_service_area service_hmadi_6" id="services">
 		<div class="container">
 			<div class="row">
@@ -538,7 +593,7 @@
 							<div class="witr_btn_sinner witr_btn_sinner2">
 								<a href="#" class="witr_btn">Agendar Consulta</a>
 							</div>
-						</div>
+						</div> 	
 					</div>
 				</div>
 				<div class="col-lg-6 col-md-6 col-sm-12">
@@ -604,11 +659,6 @@
 
 
 
-
-
-
-
-
 	<!-- footer-middle -->
 	<!-- footer-middle -->
 	<div class="footer-middle">
@@ -639,6 +689,7 @@
 								</div>
 								<div class="footer-sociala-info">
 									<p>Telefone: (11) 96453-9756</p>
+									<p>Telefone: (15) 99751-4763</p>
 								</div>
 							</div>
 							<div class="footer_s_inner">
@@ -711,6 +762,7 @@
 	<script src="assets/js/jquery.meanmenu.js"></script>
 	<script src="assets/js/ajax-mail.js"></script>
 	<script src="assets/js/theme.js"></script>
+	<script src="/assets/js/modal.js"></script>
 
 </body>
 
