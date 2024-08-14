@@ -1701,7 +1701,7 @@ ul.wp-block-gallery.alignleft {
 }
 
 .witr_btn:hover {
-    background: #008689;
+    background: #3ce31c;
     color: #fff;
 }
 
@@ -4077,9 +4077,9 @@ nav.woocommerce-MyAccount-navigation ul li:not(.is-active):hover:after {
 
 .witr_butn:hover {
     color: #fff;
-    border-color: #008689;
+    border-color: #3ce31c;
     z-index: 999;
-    background: #008689;
+    background: #3ce31c;
 }
 
 .witr_video_butns {
@@ -5875,7 +5875,7 @@ nav.woocommerce-MyAccount-navigation ul li:not(.is-active):hover:after {
     border-radius: 30px;
     text-align: center;
     transition: 0.5s;
-    color: #008689;
+    color: #3ce31c;
     margin: 0 2px;
     font-size: 15px;
 }
@@ -10000,46 +10000,7 @@ span.smalltext {
     color: #fff;
 }
 
-.Screenshots-slide:hover .slick-next,
-.Screenshots-slide:hover .slick-prev,
-.Single_blog_testimonial_active:hover .slick-next,
-.Single_blog_testimonial_active:hover .slick-prev,
-.blog_active:hover .slick-next,
-.blog_active:hover .slick-prev,
-.blog_wrap:hover .slick-next,
-.blog_wrap:hover .slick-prev,
-.event_active:hover .slick-next,
-.event_active:hover .slick-prev,
-.hmadi_testomonial_active:hover .slick-next,
-.hmadi_testomonial_active:hover .slick-prev,
-.images_area:hover .slick-next,
-.images_area:hover .slick-prev,
-.imagess_area:hover .slick-next,
-.imagess_area:hover .slick-prev,
-.mobile-slide-7:hover .slick-next,
-.mobile-slide-7:hover .slick-prev,
-.mobile-slide:hover .slick-next,
-.mobile-slide:hover .slick-prev,
-.single_portfolio_previwe:hover .slick-next,
-.single_portfolio_previwe:hover .slick-prev,
-.testomonial-slide:hover .slick-next,
-.testomonial-slide:hover .slick-prev,
-.testomonial:hover .slick-next,
-.testomonial:hover .slick-prev,
-.testomonial_active:hover .slick-next,
-.testomonial_active:hover .slick-prev,
-.witr_case:hover .slick-next,
-.witr_case:hover .slick-prev,
-.witr_ds_content_area:hover .slick-next,
-.witr_ds_content_area:hover .slick-prev,
-.witr_islidess_slick:hover .slick-next,
-.witr_islidess_slick:hover .slick-prev,
-.witr_slick_active:hover .slick-next,
-.witr_slick_active:hover .slick-prev,
-.witr_team_area_c:hover .slick-next,
-.witr_team_area_c:hover .slick-prev {
-    opacity: 1;
-}
+
 
 .blog_wrap .slick-next,
 .blog_wrap .slick-prev {
@@ -11302,7 +11263,7 @@ span.time-counts {
 
 .top-right-menu .social-icons li a i:hover,
 .top-right-menu .social-icons li a:hover {
-    color: #008689;
+    color: #3ce31c;
 }
 
 .top-both-p0 .top-address p a,
@@ -12518,7 +12479,7 @@ a.comment-edit-link {
 }
 
 .breadcumb-inner li a:hover {
-    color: #008689;
+    color: #3ce31c;
 }
 
 .brpt h2 {
@@ -16433,7 +16394,7 @@ span.witr_cir_text:first-letter {
 }
 
 .single_causes_batton button:hover {
-    background: #008689;
+    background: #3ce31c;
 }
 
 .witr_button1 {
@@ -16536,7 +16497,7 @@ a.dtbtn {
 .hmadi_button a:hover,
 .witr_btn:hover,
 a.dtbtn:hover {
-    background: #008689;
+    background: #3ce31c;
     color: #fff;
 }
 
@@ -16545,7 +16506,7 @@ a.dtbtn:hover {
 }
 
 .tx_btn_global_color:hover {
-    background: #008689;
+    background: #3ce31c;
 }
 
 .witr_h_h10 .hmadi_menu,
@@ -16584,7 +16545,7 @@ a.dtbtn:hover {
 
 .witr_ser_btnb a:hover {
     color: #fff;
-    background-color: #008689;
+    background-color: #3ce31c;
 }
 
 .hmadi_booking_appointment_area.hmadi_booking_appointment_area3 {
@@ -16592,7 +16553,8 @@ a.dtbtn:hover {
 }
 
 .hmadi_about_area {
-    padding: 50px 0 50px;
+    padding: 20px 0 20px;
+    margin-bottom: 50px;
 }
 
 .hmadi_about_thumb img {
@@ -16630,7 +16592,7 @@ a.dtbtn:hover {
 }
 
 .hmadi_witr_about_title_inner p {
-    color: #008689;
+    color: #3ce31c;
 }
 
 .icon-list-items li i {
@@ -16702,7 +16664,9 @@ a.dtbtn:hover {
 }
 
 .video-part {
-    background-image: url(../images/video.jpg);
+    background-image: url(../images/covervideo.jpg);
+    background-size: cover;
+    background-position: center;
     padding: 170px 0 180px;
     background-repeat: no-repeat;
 }
@@ -17066,7 +17030,7 @@ a.dtbtn:hover {
   }
   
   #galeria a:hover {
-    background-color: #d97706; /* bg-amber-600 */
+    background-color: #3ce31c; /* bg-amber-600 */
   }
   
   /* Modal */
@@ -17131,3 +17095,23 @@ a.dtbtn:hover {
     background-color: rgba(0, 0, 0, 0.8);
   }
   
+
+  .whatsapp-float {
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    bottom: 22px;
+    right: 75px;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    z-index: 100;
+}
+
+.whatsapp-float img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    object-fit: cover;
+}
