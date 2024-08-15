@@ -20,7 +20,44 @@
 	<!-- modernizr js -->
 	<script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
 
+	<style>
+		.whatsapp-button {
+			position: fixed;
+			bottom: 80px;
+			right: 25px;
+			background-color: #25d366;
+			border-radius: 50%;
+			padding: 10px;
+			box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+			z-index: 1000;
+		}
 
+		.whatsapp-button img {
+			width: 40px;
+			height: 40px;
+		}
+
+		.cards-section {
+			margin: 50px 0;
+			text-align: center;
+		}
+
+		.card-item {
+			display: inline-block;
+			margin: 10px;
+			padding: 20px;
+			border: 1px solid #ddd;
+			border-radius: 10px;
+			width: 400px;
+			box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+		}
+
+		.card-item i {
+			font-size:32px;
+			color: #25d366;
+			margin-bottom: 15px;
+		}
+	</style>
 </head>
 
 <body>
@@ -166,7 +203,18 @@
 		</div>
 	</div>
 
-
+	<div class="cards-section">
+		<div class="card-item">
+			<i class="icofont-live-support"></i>
+			<h3>Atendimento 24 horas</h3>
+			<p>Estamos disponíveis para atender você a qualquer hora do dia ou da noite.</p>
+		</div>
+		<div class="card-item">
+			<i class="icofont-globe"></i>
+			<h3>Parceria em todo Brasil</h3>
+			<p>Oferecemos suporte e parceria em todo o território nacional.</p>
+		</div>
+	</div>  
 	<div class="hmadi_about_area" id="about">
 		<div class="container">
 			<div class="row">
